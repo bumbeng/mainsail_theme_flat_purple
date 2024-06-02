@@ -141,7 +141,7 @@
     border-radius: 10px;
 }
 
-.topbar .v-btn[data-v-d412d810] {
+.topbar .v-btn {
     height: 70%!important;
 }
 
@@ -157,8 +157,8 @@
     border-radius: 10px;
 }
 
-.active-nav-item[data-v-99ab1bec] {
-    border-radius: 12px;
+.active-nav-item {
+    border-radius: 12px !important;
 }
 
 .v-navigation-drawer__content {
@@ -178,13 +178,9 @@
     background: rgba(25, 25, 25, 0.2)!important;
 }
 
-svg[data-v-7e121d54] {
-    opacity: 0.7!important;
-}
-
-.dragable-item[data-v-50fe7cb0], .dragable-item[data-v-2ba4ce8c], .dragable-item[data-v-044fccd7] {
-    background-color: rgb(34 30 37 / 40%);
-    border-radius: 1em;
+.dragable-item {
+    background-color: rgb(34 30 37 / 40%) !important;
+    border-radius: 1em !important;
 }
 
 .v-navigation-drawer__image {
